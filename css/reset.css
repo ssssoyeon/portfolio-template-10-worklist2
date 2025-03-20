@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 62.5%;
+}
+ul,
+dl,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+section {
+    background-color: #eee;
+    height: 100vh;
+}
+section:nth-child(even) {
+    background-color: #ffe3e3;
+}
+
+.img-wrap {
+    position: relative;
+}
+.rel {
+    max-width: 160rem;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+.tit-wrap {
+    color: #3b3b3b;
+}
+
+
+.tit-wrap h1 {
+    font-size: 8rem;
+}
+
+.tit-wrap p {
+    font-size: 1.8rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
